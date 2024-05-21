@@ -30,12 +30,13 @@ class AnimeInfo:
         self.kitsu = RawAnimeInfo()
         self.CAPTION = """
 **{}
-━━━━━━━━━━━━━━━
+─────────────────────────
 ‣ Language : Japanese [English-Sub]
 ‣ Quality : 480p, 720p, 1080p
 ‣ Season : {}
 ‣ Episode : {}
-━━━━━━━━━━━━━━━
+‣ Powered By : @Anime_Wide
+─────────────────────────
 〣 Next Airing Episode: {}
 〣 Next Airing Episode Date: {}
 ━━━━━━━━━━━━━━━**
