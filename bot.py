@@ -84,13 +84,13 @@ async def _start(event):
                 buttons=admin.admin_panel(),
             )
         await event.reply(
-            f"**Enjoy Ongoing Anime's Best Encode 24/7 🫡**",
+            f"**Enjoy Ongoing Anime's Best Encode 24/7**",
             buttons=[
                 [
-                    Button.url("👨‍💻 DEV", url="t.me/kaif_00z"),
+                    Button.url("ᴀɴɪᴍᴇ", url="https://t.me/+Zaj_eTVNS7o1MmI1"),
                     Button.url(
-                        "💖 OPEN SOURCE",
-                        url="https://github.com/kaif-00z/AutoAnimeBot/",
+                        "ᴍᴏᴠɪᴇ & ꜱᴇʀɪᴇꜱ",
+                        url="https://t.me/+mKXIX38_UpMxOTg1",
                     ),
                 ]
             ],
