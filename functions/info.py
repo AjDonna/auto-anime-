@@ -36,10 +36,7 @@ class AnimeInfo:
 ‣ Season : {}
 ‣ Episode : {}
 ‣ Powered By : @Anime_Wide
-─────────────────────────
-〣 Next Airing Episode: {}
-〣 Next Airing Episode Date: {}
-━━━━━━━━━━━━━━━**
+─────────────────────────**
 """
         self.proper_name = self.get_proper_name_for_func(name)
         self.name = name
