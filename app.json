@@ -19,7 +19,7 @@
 
         "BOT_TOKEN": {
             "description": "Make a bot from @BotFather, and enter it's api token here.",
-            "value": "7186148593:AAHOkWc_mgBO_QCv4YgxkAtf3o1mh1OtyeY"
+            "value": ""
         },
 
         "OWNER": {
