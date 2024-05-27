@@ -59,36 +59,36 @@ class Reporter:
         await self.awake()
         msg = await self.client.send_message(
             Var.LOG_CHANNEL,
-            f"**New Anime Released**\n\n **File Name:** ```{self.file_name}```\n\n**STATUS:** `Downloading...`",
+            f"**New Anime Released**\n\n **File Name:** 01 - {self.file_name}[Quality][E-Sub][@Anime_Bash].mkv\n\n**STATUS:** `Downloading...`",
         )
         self.msg = msg
 
     async def started_compressing(self, btn):
         self.msg = await self.msg.edit(
-            f"**Successfully Downloaded The Anime**\n\n **File Name:** ```{self.file_name}```\n\n**STATUS:** `Encoding...`",
+            f"**Successfully Downloaded The Anime**\n\n **File Name:** 01 - {self.file_name}[Quality][E-Sub][@Anime_Bash].mkv\n\n**STATUS:** `Encoding...`",
             buttons=btn,
         )
 
     async def started_renaming(self):
         self.msg = await self.msg.edit(
-            f"**Successfully Downloaded The Anime**\n\n **File Name:** ```{self.file_name}```\n\n**STATUS:** `Renaming...`",
+            f"**Successfully Downloaded The Anime**\n\n **File Name:** 01 - {self.file_name}[Quality][E-Sub][@Anime_Bash].mkv\n\n**STATUS:** `Renaming...`",
             buttons=[[Button.inline("✒️", data="uwu")]],
         )
 
     async def started_uploading(self):
         self.msg = await self.msg.edit(
-            f"**Successfully Encoded The Anime**\n\n **File Name:** ```{self.file_name}```\n\n**STATUS:** `Uploading...`",
+            f"**Successfully Encoded The Anime**\n\n **File Name:** 01 - {self.file_name}[Quality][E-Sub][@Anime_Bash].mkv\n\n**STATUS:** `Uploading...`",
             buttons=[],
         )
 
     async def started_gen_ss(self):
         self.msg = await self.msg.edit(
-            f"**Successfully Uploaded The Anime**\n\n **File Name:** ```{self.file_name}```\n\n**STATUS:** `Generating Sample And Screen Shot...`"
+            f"**Successfully Uploaded The Anime**\n\n **File Name:** 01 - {self.file_name}[Quality][E-Sub][@Anime_Bash].mkv\n\n**STATUS:** `Generating Sample And Screen Shot...`"
         )
 
     async def all_done(self):
         self.msg = await self.msg.edit(
-            f"**Successfully Completed All Task Related To The Anime**\n\n **File Name:** ```{self.file_name}```\n\n**STATUS:** `DONE`"
+            f"**Successfully Completed All Task Related To The Anime**\n\n **File Name:** 01 - {self.file_name}[Quality][E-Sub][@Anime_Bash].mkv\n\n**STATUS:** `DONE`"
         )
 
     async def awake(self):  # in case
