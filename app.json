@@ -29,12 +29,12 @@
 
         "REDIS_URI": {
             "description": "Redis endpoint URL, from redislabs.com",
-            "value": "redis-10310.c299.asia-northeast1-1.gce.cloud.redislabs.com:10310"
+            "value": "redis-15747.c85.us-east-1-2.ec2.redns.redis-cloud.com:15747"
         },
 
         "REDIS_PASSWORD": {
             "description": "Redis endpoint password, from redislabs.com",
-            "value": "wuYo4GTyixeXUsZRoHS5qcAOt4WNh4hu"
+            "value": "70pj3f6dxJ4TqnFuCN48XwhpbVH0bX0n"
         },
 
         "MAIN_CHANNEL": {
@@ -59,7 +59,7 @@
 
         "FORCESUB_CHANNEL": {
             "description": "Channel ID For ForceSub",
-            "value": "-1002090269665",
+            "value": "-1002136612794",
             "required": false
         },
 
